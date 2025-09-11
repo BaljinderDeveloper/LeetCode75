@@ -22,5 +22,10 @@ public class Prog1_283_MoveZeroes {
             list.add(it.next());
         }
         System.out.println(list);
+        int i = 0;
+        while(i < nums.length){
+            nums[i] = list.get(i);
+            i++;
+        }
     }
 }
