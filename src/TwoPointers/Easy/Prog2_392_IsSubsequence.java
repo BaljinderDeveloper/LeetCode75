@@ -5,7 +5,8 @@ import java.util.List;
 
 public class Prog2_392_IsSubsequence {
     public static void main(String[] args) {
-        String s = "adc";
+//        String s = "adc";
+        String s = "axc";
         String t = "ahbgdc";
         Prog2_392_IsSubsequence obj = new Prog2_392_IsSubsequence();
         System.out.println(obj.isSubsequence(s,t));
@@ -19,6 +20,7 @@ public class Prog2_392_IsSubsequence {
                 }
             }
         }
+        System.out.println(list);
         int flag = 0;
         if(list.size() == s.length()){
             for(int i = 0; i < list.size()-1; i++){
