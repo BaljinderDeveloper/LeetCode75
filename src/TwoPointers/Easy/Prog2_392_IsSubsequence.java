@@ -25,7 +25,8 @@ public class Prog2_392_IsSubsequence {
         List<Integer> list = new ArrayList<>();
         for(int i = 0; i < s.length(); i++){
             while(count < t.length()){
-                if(Objects.equals(s.charAt(i), t.charAt(count))){
+//                if(Objects.equals(s.charAt(i), t.charAt(count))){
+                if(s.charAt(i) == t.charAt(count)){
                     list.add(count);
                     break;
                 }
