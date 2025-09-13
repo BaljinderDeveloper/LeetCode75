@@ -10,13 +10,13 @@ public class Prog1_151_ReverseWordsinaString {
     }
     public String reverseWords(String s) {
         String[] str = s.split(" ");
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         for(int i = str.length-1; i >= 0; i--){
             if(!(str[i].equals(""))){
                 sb.append(str[i].trim());
                 sb.append(" ");
             }
         }
-        return sb.toString();
+        return sb.toString().trim();
     }
 }
