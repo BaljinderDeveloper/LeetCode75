@@ -19,6 +19,7 @@ public class Prog2_392_IsSubsequence {
 
         Prog2_392_IsSubsequence obj = new Prog2_392_IsSubsequence();
         System.out.println(obj.isSubsequence(s,t));
+//        This solution is not working in LeetCode comiler. I don't know why.
     }
     static int count = 0;
     public boolean isSubsequence(String s, String t) {
